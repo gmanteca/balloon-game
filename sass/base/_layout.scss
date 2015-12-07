@@ -1,8 +1,27 @@
+html, body
+{
+    height: 100%;
+}
 .container {
   display:block;
   position:relative;
-  margin: 20px auto;
-  width: 600px;
+  margin: 0 auto;
+  width: 1000px;
   background: url('../images/clouds-background.jpg');
-  height: 500px;
+  background-size: cover;
+  overflow-y: hidden;
+  height: 100%;
+  font-family: $app-font;
+}
+
+.points {
+  position:absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.lives {
+  position:absolute;
+  right: 20px;
+  top:30px;
 }
