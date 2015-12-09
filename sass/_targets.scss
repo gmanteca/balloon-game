@@ -1,0 +1,24 @@
+.balloon {
+  position: absolute;
+  background-size: cover;
+}
+.green-balloon {
+  @extend .balloon;
+  background-image:url('../images/balloon-green.png');
+}
+.orange-balloon {
+  @extend .balloon;
+  background-image:url('../images/balloon-orange.png');
+}
+.blue-balloon {
+  @extend .balloon;
+  background-image:url('../images/balloon-blue.png');
+}
+.red-balloon {
+  @extend .balloon;
+  background-image:url('../images/balloon-red.png');
+}
+.ufo {
+  @extend .balloon;
+  background-image:url('../images/ufo.png');
+}
