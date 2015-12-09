@@ -36,3 +36,6 @@ html, body { height: 100%; }
 .points { position: absolute; left: 20px; top: 30px; }
 
 .lives { position: absolute; right: 20px; top: 30px; }
+
+#over { display: none; position: absolute; top: 100px; left: 45%; z-index: 999; }
+#over img { width: 200px; height: 50px; }

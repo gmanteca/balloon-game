@@ -25,3 +25,15 @@ html, body
   right: 20px;
   top:30px;
 }
+
+#over {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+  z-index: 999;
+  img{
+    width: 200px;
+    height: 50px;
+  }
+}
